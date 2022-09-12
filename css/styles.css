@@ -18,11 +18,12 @@ ul, ol {
 	list-style-type: 		none;
 }
 
+
+
 /* Defaults */
 
 body {
 	font-family:			Tahoma, Arial, sans-serif;
-	background-color:		#fcfc8f;			
 }
 
 h1 {
@@ -118,17 +119,68 @@ ul {
 #mainsection {
 	overflow:				hidden;
 	width:					100%;
-	border: 				2px #000 solid;
 }
 
 .colour {
-	width: 					200px;
-	height: 				500px;
-	border: 				2px #000 solid;
+	width: 					380px;
+	height: 				100vh;
+	border: 				0px #000 solid;
 	display:				inline-block;
+	transition:				all 0.25s;
+	display:				flex-wrap;
+	margin: -3px;
 }
 
+.colourone {
+	background-color:		#ffff00;
+	width: 					380px;
+	height: 				100vh;
 
+}
+
+.colourtwo {
+	background-color:		#0089FF;
+	width: 					380px;
+	height: 				100vh	;
+
+}
+
+.colourthree {
+	background-color:		rgb(219,112,147);
+	width: 					380px;
+	height: 				100vh;
+
+}
+
+.colourfour {
+	background-color:		rgb(143,188,143);
+	width: 					380px;
+	height: 				100vh;
+
+}
+
+.button {
+	display: 				flex;
+	align-items: 			center;
+	justify-content: 		center;
+	width:					350px;
+	height: 				200px; 
+	color:					#000;
+	float: 					left;
+	font-family: 			'Cormorant Garamond', serif;
+	font-weight: 			bold;
+}
+
+.colourcode {
+	display: 				flex;
+	align-items: 			center;
+	justify-content: 		center;
+	width: 					350px;
+	height: 				200px;
+	color:					#000;
+	float: 					left;
+	font-family: 			'Cormorant Garamond', serif;
+}
 
 /* Footer */
 
