@@ -1,0 +1,169 @@
+/* CSS Reset */
+
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li , figure, figcaption, form, fieldset, label, legend, dl, dt, dd, caption, table, td, th {
+    margin: 				0;
+    padding:				0;
+    font-size: 				100%;
+}
+
+section, article, header, footer, nav, aside, main {
+	display:				block;
+}
+
+img {
+	border:					none;
+}
+
+ul, ol {
+	list-style-type: 		none;
+}
+
+/* Defaults */
+
+body {
+	font-family:			Tahoma, Arial, sans-serif;
+	background-color:		#fcfc8f;			
+}
+
+h1 {
+	font-weight:			bold;
+	color:					#0089FF;
+	font-family:			'Cormorant SC', serif;;
+	font-size:				5em;
+	text-align: 			center;
+}
+
+h2 {
+	font-size:				2.5em;
+	margin:					0.5em;
+	font-family: 			'Libre Bodoni', serif;;
+	clear: 					both;
+	text-align: 			center;
+}
+
+h3 {
+	font-size:				1.75em;
+	margin:					0.5em;
+	color:					#000;
+	font-family: 			'Archivo Black', sans-serif;
+	float: 					left;
+	clear: 					both;
+}
+
+h4 {
+	font-family:			Arial, Helvetica, sans-serif;
+	font-weight:			bold;
+	margin:					15px;
+
+}
+
+h4 a {
+	color:					#0000FF;
+}
+
+p {
+	font-family:			'Roboto Mono', monospace;
+	color:					#000;
+	clear:					both;
+	text-align:				justify;
+	margin:					15px;
+	font-weight:	 		bold;
+}
+
+p a {
+	text-decoration:		none;
+	color:					#0000FF;
+	font-weight:			bold;
+}
+
+p a:hover, a:focus {
+	color:					#717171;
+}
+
+ul, ul li {
+	font-family:			Arial, Helvetica, sans-serif;
+	color:					#000;
+	clear:					both;
+	text-align:				justify;
+	margin:					1em;
+}
+
+ul {
+	list-style-type: 		disc;
+}
+
+#pageheader {
+	margin:					1em;
+	padding-bottom:			2em;
+	overflow:				hidden;
+	max-width:				100%;
+}
+
+.skiplink {
+	position:				absolute;
+	left: 					-10000px;
+}
+
+.skiplink:focus {
+	left:					0;
+	background-color: 		#4c712b;
+	color:					#ffff00;
+}
+
+.skiplink a:hover, a:focus {
+	color:					#4c712b;
+	text-decoration:		underline;
+}
+
+#mainsection {
+	overflow:				hidden;
+	width:					100%;
+	border: 				2px #000 solid;
+}
+
+.colour {
+	width: 					200px;
+	height: 				500px;
+	border: 				2px #000 solid;
+	display:				inline-block;
+}
+
+
+
+/* Footer */
+
+#footer {
+	overflow:				hidden;
+	clear:					both;
+	width:					95%;
+	padding:				1em;
+	margin:					1em 0.5em 1em 0.1em;
+}
+
+.container {
+	position: relative;
+	width: 					50%;
+}
+
+/* Css for card overlay **/
+.cardcontainer {
+	position: 				relative;
+
+}
+.overlay {
+	position: 				absolute;
+	top: 					0;
+	bottom: 				0;
+	left: 					0;
+	right: 					0;
+	height: 				100%;
+	width: 					100%;
+	opacity: 				0;
+	transition: 			.5s ease;
+	background-color:		#008CBA;
+
+}
+.cardcontainer:hover .overlay {
+	opacity: 				1;
+}
+
