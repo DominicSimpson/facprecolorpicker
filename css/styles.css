@@ -67,8 +67,8 @@ p {
 	color:					#000;
 	clear:					both;
 	text-align:				justify;
-	margin:					15px;
 	font-weight:	 		bold;
+
 }
 
 p a {
@@ -135,13 +135,12 @@ ul {
 	background-color:		#ffff00;
 	width: 					380px;
 	height: 				100vh;
-
 }
 
 .colourtwo {
 	background-color:		#0089FF;
 	width: 					380px;
-	height: 				100vh	;
+	height: 				100vh;
 
 }
 
@@ -171,16 +170,29 @@ ul {
 	font-weight: 			bold;
 }
 
-.colourcode {
+.text {
+	display: flex;
+	color: #000;
+	z-index: 1;
+	align-items: center;
+	justify-content: center;
+	font-family: 			'Cormorant Garamond', serif;
+	font-weight: 			bold;
+	padding-bottom: 500px;
+}
+
+
+/* #text {
 	display: 				flex;
 	align-items: 			center;
 	justify-content: 		center;
 	width: 					350px;
 	height: 				200px;
-	color:					#000;
+	color:					#fff;
 	float: 					left;
 	font-family: 			'Cormorant Garamond', serif;
-}
+	z-index: 1;
+} */
 
 /* Footer */
 
