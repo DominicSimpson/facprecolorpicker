@@ -119,66 +119,49 @@ ul {
 #mainsection {
 	overflow:				hidden;
 	width:					100%;
+	padding-bottom: 		50px;
 }
 
 .colour {
 	width: 					380px;
 	height: 				100vh;
-	border: 				0px #000 solid;
 	display:				inline-block;
 	transition:				all 0.25s;
 	display:				flex-wrap;
-	margin: -3px;
+	margin: 				-10px;
 }
 
 .colourone {
-	background-color:		#ffff00;
 	width: 					380px;
-	height: 				100vh;
+	height: 				100vh;	
 }
 
 .colourtwo {
-	background-color:		#0089FF;
 	width: 					380px;
 	height: 				100vh;
 
 }
 
 .colourthree {
-	background-color:		rgb(219,112,147);
 	width: 					380px;
 	height: 				100vh;
 
 }
 
 .colourfour {
-	background-color:		rgb(143,188,143);
 	width: 					380px;
 	height: 				100vh;
 
 }
 
-.button {
+.text, .texttwo {
 	display: 				flex;
+	color:					 #000;
 	align-items: 			center;
 	justify-content: 		center;
-	width:					350px;
-	height: 				200px; 
-	color:					#000;
-	float: 					left;
 	font-family: 			'Cormorant Garamond', serif;
 	font-weight: 			bold;
-}
-
-.text {
-	display: flex;
-	color: #000;
-	z-index: 1;
-	align-items: center;
-	justify-content: center;
-	font-family: 			'Cormorant Garamond', serif;
-	font-weight: 			bold;
-	padding-bottom: 500px;
+	text-transform: 		uppercase;
 }
 
 
