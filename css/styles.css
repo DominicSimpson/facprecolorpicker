@@ -114,16 +114,17 @@ ul {
 }
 
 .colour {
-	width: 					200px;
+	width: 					205px;
 	height: 				100vh;
 	display:				inline-block;
 	transition:				all 0.25s;
 	display:				flex-wrap;
 	margin: 				-10px;
+	max-width:				100%;
 }
 
 .colourone, .colourtwo, .colourthree, .colourfour, .colourfive, .coloursix, .colourseven, .coloureight {
-	width: 					200px;
+	width: 					205px;
 	height: 				100vh;	
 }
 
