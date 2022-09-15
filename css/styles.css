@@ -118,8 +118,9 @@ ul {
 	display:				inline-block;
 	transition:				all 0.25s;
 	display:				flex-wrap;
-	margin: 				-10px;
+	margin: 				-10px -10px 75px -10px;
 	max-width:				100%;
+
 }
 
 .colourone, .colourtwo, .colourthree, .colourfour, .colourfive, .coloursix, .colourseven, .coloureight {
@@ -136,8 +137,19 @@ ul {
 	font-weight: 			bold;
 	text-transform: 		uppercase;
 	position: 				relative;
-	padding-top: 			20px;
+	margin-bottom: 		20px;
 }
+
+@media screen and (max-width: 800px)
+{
+.textone, .texttwo, .textthree, .textfour, .textfive, .textsix, .textseven, .texteight
+{
+	color:					 #000;
+	text-align: center;
+	position: relative;
+}
+}
+
 
 /* #text {
 	display: 				flex;
