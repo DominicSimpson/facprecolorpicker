@@ -93,7 +93,7 @@ function changeColour7() {
   document.querySelector('.textseven').innerHTML = hex;
 }
 
-function changeColour6() {
+function changeColour8() {
   let hex = generateRandomHexColour();
   document.querySelector('.coloureight').value = hex;
   document.querySelector('.texteight').innerHTML = hex;
@@ -121,6 +121,7 @@ changeColour5();
 changeColour6();
 changeColour7();
 changeColour8();
+
 
 
 
