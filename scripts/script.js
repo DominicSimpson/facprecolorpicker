@@ -53,7 +53,7 @@ for(i=0; i < 3; i++) {
 function changeColour() {
   let hex = generateRandomHexColour();
   document.querySelector('.colourone').value = hex;
-  document.querySelector('.text').innerHTML = hex;
+  document.querySelector('.textone').innerHTML = hex;
 }
 
 function changeColour2() {
@@ -62,9 +62,30 @@ function changeColour2() {
   document.querySelector('.texttwo').innerHTML = hex;
 }
 
+function changeColour3() {
+  let hex = generateRandomHexColour();
+  document.querySelector('.colourthree').value = hex;
+  document.querySelector('.textthree').innerHTML = hex;
+}
+
+function changeColour4() {
+  let hex = generateRandomHexColour();
+  document.querySelector('.colourfour').value = hex;
+  document.querySelector('.textfour').innerHTML = hex;
+}
+
+function changeColour5() {
+  let hex = generateRandomHexColour();
+  document.querySelector('.colourfive').value = hex;
+  document.querySelector('.textfive').innerHTML = hex;
+}
+
 function clickHandler(event) {
   changeColour();
   changeColour2();
+  changeColour3();
+  changeColour4();
+  changeColour5();
   event.preventDefault();
 }
 
@@ -72,6 +93,9 @@ document.addEventListener('click', clickHandler);
 
 changeColour();
 changeColour2();
+changeColour3();
+changeColour4();
+changeColour5();
 
 
 

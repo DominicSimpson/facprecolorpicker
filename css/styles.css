@@ -131,30 +131,12 @@ ul {
 	margin: 				-10px;
 }
 
-.colourone {
+.colourone, .colourtwo, .colourthree, .colourfour, .colourfive {
 	width: 					380px;
 	height: 				100vh;	
 }
 
-.colourtwo {
-	width: 					380px;
-	height: 				100vh;
-
-}
-
-.colourthree {
-	width: 					380px;
-	height: 				100vh;
-
-}
-
-.colourfour {
-	width: 					380px;
-	height: 				100vh;
-
-}
-
-.text, .texttwo {
+.textone, .texttwo, .textthree, .textfour, .textfive {
 	display: 				flex;
 	color:					 #000;
 	align-items: 			center;
