@@ -56,6 +56,7 @@ function changeColour() {
   document.querySelector('.textone').innerHTML = hex;
 }
 
+
 function changeColour2() {
   let hex = generateRandomHexColour();
   document.querySelector('.colourtwo').value = hex;
