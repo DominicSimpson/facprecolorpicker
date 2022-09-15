@@ -87,6 +87,9 @@ function clickHandler(event) {
   changeColour3();
   changeColour4();
   changeColour5();
+  changeColour6();
+  changeColour7();
+  changeColour8();
   event.preventDefault();
 }
 
