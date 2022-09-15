@@ -124,7 +124,7 @@ ul {
 }
 
 .colour {
-	width: 					380px;
+	width: 					200px;
 	height: 				100vh;
 	display:				inline-block;
 	transition:				all 0.25s;
@@ -133,7 +133,7 @@ ul {
 }
 
 .colourone, .colourtwo, .colourthree, .colourfour, .colourfive, .coloursix, .colourseven, .coloureight {
-	width: 					380px;
+	width: 					200px;
 	height: 				100vh;	
 }
 
