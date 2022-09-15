@@ -105,7 +105,7 @@ p {
 	height: 				100vh;
 	display:				inline-block;
 	transition:				all 0.25s;
-	display:				flex-wrap;
+	/* display:				flex-wrap; */
 	margin: 				-10px -10px 75px -10px;
 	max-width:				100%;
 }
