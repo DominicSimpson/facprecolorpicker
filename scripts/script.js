@@ -34,28 +34,11 @@ for(i=0; i < 3; i++) {
   console.log(generateRandomHexColour());
 }
 
-// function generateRandomHslColour() {
-//   let h = positiveInteger(360);
-//   let s = positiveInteger(100);
-//   let l = positiveInteger(100);
-
-//   return [h,s,l];
-
-// }
-
-// for(i=0; i < 5; i++) {
-//   console.log(generateRandomHslColour());
-// }
-
-
-
-
-function changeColour() {
+function changeColour1() {
   let hex = generateRandomHexColour();
   document.querySelector('.colourone').value = hex;
   document.querySelector('.textone').innerHTML = hex;
 }
-
 
 function changeColour2() {
   let hex = generateRandomHexColour();
@@ -100,7 +83,7 @@ function changeColour8() {
 }
 
 function clickHandler(event) {
-  changeColour();
+  changeColour1();
   changeColour2();
   changeColour3();
   changeColour4();
@@ -113,7 +96,7 @@ function clickHandler(event) {
 
 document.addEventListener('click', clickHandler);
 
-changeColour();
+changeColour1();
 changeColour2();
 changeColour3();
 changeColour4();
