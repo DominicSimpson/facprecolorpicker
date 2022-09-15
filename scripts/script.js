@@ -81,6 +81,24 @@ function changeColour5() {
   document.querySelector('.textfive').innerHTML = hex;
 }
 
+function changeColour6() {
+  let hex = generateRandomHexColour();
+  document.querySelector('.coloursix').value = hex;
+  document.querySelector('.textsix').innerHTML = hex;
+}
+
+function changeColour7() {
+  let hex = generateRandomHexColour();
+  document.querySelector('.colourseven').value = hex;
+  document.querySelector('.textseven').innerHTML = hex;
+}
+
+function changeColour6() {
+  let hex = generateRandomHexColour();
+  document.querySelector('.coloureight').value = hex;
+  document.querySelector('.texteight').innerHTML = hex;
+}
+
 function clickHandler(event) {
   changeColour();
   changeColour2();

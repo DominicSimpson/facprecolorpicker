@@ -98,6 +98,7 @@ ul {
 	padding-bottom:			2em;
 	overflow:				hidden;
 	max-width:				100%;
+	color: #000;
 }
 
 .skiplink {
@@ -131,12 +132,12 @@ ul {
 	margin: 				-10px;
 }
 
-.colourone, .colourtwo, .colourthree, .colourfour, .colourfive {
+.colourone, .colourtwo, .colourthree, .colourfour, .colourfive, .coloursix, .colourseven, .coloureight {
 	width: 					380px;
 	height: 				100vh;	
 }
 
-.textone, .texttwo, .textthree, .textfour, .textfive {
+.textone, .texttwo, .textthree, .textfour, .textfive, .textsix, .textseven, .texteight {
 	display: 				flex;
 	color:					 #000;
 	align-items: 			center;
