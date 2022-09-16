@@ -14,6 +14,9 @@
 
 ![coolorswebsitescreenshot](https://user-images.githubusercontent.com/52511353/190643445-263acae4-195c-4a44-93b8-cbd637f9d6d1.jpg)
 
+###### In addition, I have also noticed that a user cannot control each colour palette column individually. Instead, if the user clicks to change the colour of one colour palette column, it changes all of them. I am interested to find out a method whereby each individual colour palette column can be controlled individually. 
+###### Finally. I also did not have the chance to address the optional extra features, such as saving palettes to Local Storage (which I encoutered when constructing my Fruit Shop Shopping Cart), exporting colour palettes in different formats to JSON (again, something that I encountered with the Fruit Shop Shopping Cart), and generating related colours rather than random.
+
 
 
 
