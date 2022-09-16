@@ -113,9 +113,12 @@ p {
 }
 
 .colour h4{
-    position:absolute;
-    bottom:0;
-    color:red;
+    position:				absolute;
+    bottom:					0;
+	padding-bottom:			350px;
+    color					:#fff;
+	font-size: 				2em;
+	
 }
 
 input[type="color" i] {
